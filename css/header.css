@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    height: 158px;
+    box-shadow: 0px 2px 10px 0px rgba(35, 24, 21, 0.08);
+    padding: 22px 0;
+    background: #FFFFFF;
+}
+
+/* 头部 logo 和中英文 */
+.header-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 68px;
+}
+
+.header-lang-list {
+    display: flex;
+    align-items: center;
+}
+
+.lang-text {
+    font-size: 26px;
+    font-family: SimHei;
+    font-weight: 400;
+    color: #337AB7;
+}
+
+.lang-line {
+    width: 1px;
+    height: 36px;
+    background: #C3C3C3;
+    margin: 0 22px;
+}
+
+/* 新闻列表导航栏 */
+.news-list-box {
+    margin-top: 20px;
+}
+
+.news-list {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.news-item-line {
+    width: 1px;
+    height: 26px;
+    background: #CAC8C8;
+    margin: 0 22px;
+}
+
+.news-item {
+    font-size: 22px;
+    font-family: Source Han Sans CN;
+    font-weight: 300;
+    color: #315798;
+    cursor: pointer;
+}
