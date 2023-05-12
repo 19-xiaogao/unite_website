@@ -38,4 +38,4 @@ $('.dot').on('click', function () {
 });
 
 showSlide();
-// setInterval(nextSlide, 5000); // 自动切换
+setInterval(nextSlide, 5000); // 自动切换
