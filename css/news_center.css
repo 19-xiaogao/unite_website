@@ -1,0 +1,91 @@
+.main {
+    margin-top: 20px;
+    height: 512px;
+    background: #FFFFFF;
+    padding: 27px 17px;
+    display: flex;
+}
+
+.sidebar {}
+
+.sidebar-title-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.sidebar-title {
+    margin: 0 12px;
+    font-size: 25px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #315F9E;
+}
+
+.sidebar-line {
+    width: 46px;
+    height: 2px;
+    background: #315F9E;
+}
+
+.sidebar-title-item {
+    width: 215px;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #818182;
+    border-bottom: 1px solid #B0B0B0;
+    cursor: pointer;
+}
+
+.item-active {
+    color: #315F9E;
+    background: #E6E7E8;
+}
+
+.high-line {
+    width: 1px;
+    height: 100%;
+    background: #B0B0B0;
+    margin: 0 17px;
+}
+
+.content {
+    flex: 1;
+}
+
+.content-nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.first-bar {
+    font-size: 23px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #4F5051;
+    margin-right: 18px;
+}
+
+.nav-bar {
+    font-size: 23px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #0172D3;
+    cursor: pointer;
+}
+
+.arrow {
+    margin: 0 13px;
+}
+
+.bottom-line {
+    width: 788px;
+    height: 1px;
+    background: #B0B0B0;
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
