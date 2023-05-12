@@ -1,0 +1,153 @@
+.topic {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic-line {
+    width: 100%;
+    height: 2px;
+    background-color: #315F9E;
+    margin: 13px 0 20px;
+}
+
+.topic-content {
+    margin-bottom: 7px;
+}
+
+.topic-content p {
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #595959;
+}
+
+.topic-box {
+    background: #FFFFFF;
+    padding: 20px 18px 14px 18px;
+}
+
+.important-news {
+    width: 100%;
+}
+
+.topic-news {
+    width: 635px;
+}
+
+.topic-activity {
+    width: 415px;
+}
+
+.news-title {
+    font-family: Source Han Sans CN;
+    font-weight: 600;
+    color: #315F9E;
+    font-size: 32px;
+}
+
+.news-tips {
+    display: flex;
+}
+
+.news-tips div {
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #595959;
+    font-size: 22px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.news-tips .active {
+    color: #337AB7;
+    text-decoration: underline;
+}
+
+.topic-news-list {
+    margin-top: 16px;
+}
+
+.topic-news-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.news-item-left {
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #595959;
+    flex: 1;
+    margin-right: 39px;
+}
+
+.news-item-left-activity {
+    margin-right: 33px;
+}
+
+.news-item-right {
+    font-size: 17px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #949494;
+}
+
+.about-more {
+    font-size: 17px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #337AB7;
+    text-align: right;
+    cursor: pointer;
+}
+
+.mechanism-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mechanism-list img {
+    width: 136px;
+    height: 89px;
+    cursor: pointer;
+}
+
+.public-box {
+    display: flex;
+    align-items: center;
+}
+
+.public-box-text-box {
+    text-align: center;
+}
+
+.public-box-text-box div {
+    text-align: center;
+    font-size: 25px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #4C4B4B;
+}
+
+.public-box-img {
+    width: 63px;
+    height: 63px;
+}
+
+.public-line {
+    width: 1px;
+    height: 59px;
+    background: #828180;
+    margin-left: 55px;
+    margin-right: 37px;
+}
+
+.public-text {
+    font-size: 25px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #315F9E;
+}
