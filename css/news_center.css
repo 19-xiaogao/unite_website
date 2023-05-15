@@ -145,3 +145,41 @@
     height: 100px;
 
 }
+
+.public-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.public-line {
+    width: 1px;
+    background: #828180;
+    height: 305px;
+    margin-left: 240px;
+    margin-right: 120px;
+}
+
+.public-box-text-box {
+    text-align: center;
+}
+
+.public-box-text-box div {
+    text-align: center;
+    font-size: 35px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #4C4B4B;
+}
+
+.public-box-img {
+    width: 160px;
+    height: 160px;
+}
+
+.public-text {
+    font-size: 45px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #315F9E;
+}
