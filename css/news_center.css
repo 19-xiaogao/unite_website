@@ -1,6 +1,6 @@
 .main {
     margin-top: 20px;
-    height: 512px;
+    /* height: 512px; */
     background: #FFFFFF;
     padding: 27px 17px;
     display: flex;
@@ -93,6 +93,15 @@
 
 .content-body {
     width: 100%;
+}
+
+.content-body-content-title {
+    font-size: 35px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #0172D3;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .content-body-item {
