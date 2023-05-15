@@ -190,3 +190,32 @@
     font-weight: 400;
     color: #333333;
 }
+
+.content-detail-box-title {
+    font-size: 35px;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+}
+
+.content-detail-box-docs {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #858686;
+}
+
+.content-detail-box-docs span {
+    margin-right: 20px;
+}
+
+.content-detail {
+    margin-top: 50px;
+    font-size: 22px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #333333;
+}
