@@ -74,3 +74,18 @@ $('#commercial-activity-detail').on('click', function () {
     $(this).addClass('item-active')
     $('#last-nav').text('商业活动')
 })
+
+const langTextList = $('.lang-text');
+for (let i = 0; i < langTextList.length; i++) {
+    $(langTextList[i]).on('click', function () {
+        const text = $(this).text()
+        if (i == 0) {
+            window.location.href = window.origin + '/views/English/index.html'
+        } else if (i == 1) {
+            window.location.href = window.origin + '/index.html'
+        } else {
+            window.location.href = window.origin + '/views/Traditional/index.html'
+
+        }
+    })
+}
