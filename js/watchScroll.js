@@ -6,18 +6,19 @@ window.addEventListener('scroll', function () {
 window.addEventListener('resize', function () {
     isScrollY()
 })
+window.addEventListener('load',isScrollY)
 
 function isScrollY() {
-    const pageHeight = document.documentElement.scrollHeight;
+    const pageHeight = window.screen.height;
     console.log(pageHeight);
-    if (pageHeight <= 850) {
-        footer.css('position', `static`);
-        footer.css('margin-top', `28px`);
+    if (pageHeight == 980) {
+        // footer.css('position', `static`);
+        // footer.css('margin-top', `28px`);
 
     } else {
-        footer.css('position', `fixed`);
-        footer.css('bottom', `0`);
-        footer.css('margin-top', `28px`);
+        // footer.css('position', `fixed`);
+        // footer.css('bottom', `0`);
+        // footer.css('margin-top', `28px`);
     }
 }
 isScrollY()

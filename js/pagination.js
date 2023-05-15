@@ -4,12 +4,6 @@ const paginationList = $('.content-pagination-page .item')
 const nextPageBtn = $('#next-page');
 const lastPageBtn = $('#last-page');
 
-function initPageFunc() {
-    handlePaginationClick();
-    nextPageBtnClick();
-    lastPageBtnClick();
-}
-
 // 移除 active 点击样式
 function removeAllActiveClass() {
     for (let index = 0; index < paginationList.length; index++) {
@@ -47,6 +41,12 @@ function lastPageBtnClick() {
         currentPage = paginationList.length - 1;
         $(paginationList[currentPage]).addClass('active')
     })
+}
+
+function initPageFunc() {
+    handlePaginationClick();
+    nextPageBtnClick();
+    lastPageBtnClick();
 }
 
 initPageFunc()
