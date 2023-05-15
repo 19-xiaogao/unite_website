@@ -132,3 +132,16 @@
     font-weight: 500;
     color: #515151;
 }
+
+.cooperative {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.cooperative img {
+
+    width: 153px;
+    height: 100px;
+
+}
