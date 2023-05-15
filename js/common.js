@@ -26,3 +26,51 @@ $('#member').on('click', function () {
 $('#about-me').on('click', function () {
     window.location.href = window.origin + '/about_me.html';
 })
+// 国内新闻点击事件
+$('#national-id').on('click', function () {
+    $('#overseas-id').removeClass('active');
+    $(this).addClass('active')
+})
+// 海外新闻点击事件
+$('#overseas-id').on('click', function () {
+    $('#national-id').removeClass('active');
+    $(this).addClass('active')
+})
+
+// 国内新闻点击事件详情
+$('#national-id-detail').on('click', function () {
+    $('#overseas-id-detail').removeClass('item-active');
+    $(this).addClass('item-active')
+    $('#last-nav').text('国内新闻')
+})
+// 海外新闻点击事件详情
+$('#overseas-id-detail').on('click', function () {
+    $('#national-id-detail').removeClass('item-active');
+    $(this).addClass('item-active')
+    $('#last-nav').text('海外新闻')
+})
+
+// 公告点击事件
+$('#announcement').on('click', function () {
+    $('#commercial-activity').removeClass('active');
+    $(this).addClass('active')
+})
+
+// 商业活动点击事件
+$('#commercial-activity').on('click', function () {
+    $('#announcement').removeClass('active');
+    $(this).addClass('active')
+})
+
+// 公告点击事件详情
+$('#announcement-detail').on('click', function () {
+    $('#commercial-activity-detail').removeClass('item-active');
+    $(this).addClass('item-active')
+    $('#last-nav').text('公告')
+})
+// 商业点击事件详情
+$('#commercial-activity-detail').on('click', function () {
+    $('#announcement-detail').removeClass('item-active');
+    $(this).addClass('item-active')
+    $('#last-nav').text('商业活动')
+})
