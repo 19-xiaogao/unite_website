@@ -1,0 +1,36 @@
+.content-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.content-pagination-page {
+    display: flex;
+}
+
+.content-pagination-page .item {
+    width: 25px;
+    height: 25px;
+    color: #8B8888;
+    border: 1px solid #C5B7B7;
+    text-align: center;
+    margin-right: 11px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.content-pagination-page .active {
+    background: #5D82B3;
+    color: #FFFFFF;
+    border: none;
+}
+
+.next-page {
+    width: 67px;
+    height: 25px;
+    border: 1px solid #C5B7B7;
+    text-align: center;
+    color: #8B8888;
+    margin-right: 11px;
+    cursor: pointer;
+}
