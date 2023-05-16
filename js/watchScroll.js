@@ -14,6 +14,7 @@ function isScrollY() {
     const hrefArr = href.split('/')
     const current = hrefArr[hrefArr.length -1];
     if (sw <= 800) {
+        console.log(current);
         if(current == '' || current == 'index.html'){
         $(".main").css('background', `#fff`);
         $(".main").css('padding', `0`);
