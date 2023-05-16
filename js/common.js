@@ -38,14 +38,14 @@ $('#overseas-id').on('click', function () {
 })
 
 // 国内新闻点击事件详情
-$('#national-id-detail').on('click', function () {
-    $('#overseas-id-detail').removeClass('item-active');
+$('.national-id-detail').on('click', function () {
+    $('.overseas-id-detail').removeClass('item-active');
     $(this).addClass('item-active')
     $('#last-nav').text('国内新闻')
 })
 // 海外新闻点击事件详情
-$('#overseas-id-detail').on('click', function () {
-    $('#national-id-detail').removeClass('item-active');
+$('.overseas-id-detail').on('click', function () {
+    $('.national-id-detail').removeClass('item-active');
     $(this).addClass('item-active')
     $('#last-nav').text('海外新闻')
 })
@@ -89,3 +89,39 @@ for (let i = 0; i < langTextList.length; i++) {
         }
     })
 }
+
+$('#menu-id').on('click', function () {
+    $('.menu-box').css('display', 'block')
+    $(this).css('display', 'none');
+    $('#close').css('display', 'block');
+})
+
+$('#close').on('click', function () {
+    $('.menu-box').css('display', 'none')
+    $(this).css('display', 'none');
+    $('#menu-id').css('display', 'block');
+})
+
+
+$('#menu-id').on('click', function () {
+    $('.menu-box').css('display', 'block')
+    $(this).css('display', 'none');
+    $('#close').css('display', 'block');
+})
+
+$('#close').on('click', function () {
+    $('.menu-box').css('display', 'none')
+    $(this).css('display', 'none');
+    $('#menu-id').css('display', 'block');
+})
+
+$('#search-id').on('click', function () {
+    const searchBoxPopup = $('.search-box-popup').prop('style').display;
+    if (searchBoxPopup == 'none') {
+        $('.search-box-popup').css('display', 'flex')
+    } else {
+        $('.search-box-popup').css('display', 'none')
+    }
+    // $(this).css('display', 'none');
+    // $('#menu-id').css('display', 'block');
+})
