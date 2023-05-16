@@ -6,19 +6,19 @@ window.addEventListener('scroll', function () {
 window.addEventListener('resize', function () {
     isScrollY()
 })
-window.addEventListener('load',isScrollY)
+window.addEventListener('load', isScrollY)
 
 function isScrollY() {
-    const pageHeight = window.screen.height;
-    console.log(pageHeight);
-    if (pageHeight == 980) {
-        // footer.css('position', `static`);
-        // footer.css('margin-top', `28px`);
-
-    } else {
-        // footer.css('position', `fixed`);
-        // footer.css('bottom', `0`);
-        // footer.css('margin-top', `28px`);
-    }
+    const sw = window.screen.width;
+    const href = window.location.href;
+    const hrefArr = href.split('/')
+    const current = hrefArr[hrefArr.length -1];
+    if (sw <= 800) {
+        if(current == '' || current == 'index.html'){
+        $(".main").css('background', `#fff`);
+        $(".main").css('padding', `0`);
+        $("body").css('background', `#fff`);
+        }
+    } 
 }
 isScrollY()
